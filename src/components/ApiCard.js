@@ -15,7 +15,7 @@ class ApiCard extends React.Component {
     render() {
         return (
             <div>
-                {this.props.api.map(item => {
+                {this.props.apiData.map(item => {
                     return (
                         <div>
                             <Card style={{ width: '18rem' }}>
